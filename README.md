@@ -16,8 +16,11 @@ Authors: [InkWang](https://github.com/1nkWang), [Lizi Luo](github.com/ChestnutLU
 ## Project Description
  > Your project description should summarize the project you are proposing. Be sure to include:
  > * Why is it important or interesting to you?
+>        It is a game, and I have never made a game before.
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
+>        C++ will be used mainly.
  > * What will be the input/output of your project?
+         Input would include the control commands and the output  would atleast show the result of the player's control.
  > * What are the features that the project provides?
  > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
  > 
