@@ -24,14 +24,11 @@ Your project description should summarize the project you are proposing. Be sure
       * It is a game, and I have never made a game before.  
       * Compared to other types of projects, we find RPG games more interesting and think we would have more fun developing one. Since I have never designed or developed a game before, I am very interested in this project.  
 * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)  
-  - languages:Cpa
-        * We plan to primarily use C++ to develop our RPG game. We intend to create a text-based user interface (TUI) to display the game and allow players to interact with it.   
+  - languages C++
+  - TUI Framwork: [FTXUI](https://github.com/ArthurSonzogni/FTXUI) (FTXUI is a modern C++ library for building interactive terminals.)
 * What will be the input/output of your project?  
-      * Input would include the control commands and the output  would atleast show the result of the player's control.  
-      * Input: Players can choose their starting character and select different actions during turn-based combat, such as attacking, defending, or using skills. After defeating enemies, players can choose new skills and select different paths to continue their adventure.  
-      * Output: The game will display character stats, enemy information, combat results, and acquired skills through a text-based user interface (TUI). Based on the player's choices, the game will lead them to different rooms, such as enemy encounters, healing areas, or boss battles.  
 * What are the features that the project provides?
-   
+  
 
 You also need to set up an empty project board using GitHub projects (board view with columns for a scrum board). Make sure you add the board under your project repository. You should also add a Product Backlog and an In testing column. Please also rename the TODO column to Sprint Backlog and the In Progress column to In Development. All columns should be in the right order.
 
