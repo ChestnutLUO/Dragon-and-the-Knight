@@ -14,40 +14,31 @@ Authors: [InkWang](https://github.com/1nkWang), [Lizi Luo](https://github.com/Ch
 > * All project phases are to be submitted to this GitHub repository. You should modify this README file to reflect the different phases of the project. In addition, you should regularly hold sprint meetings with your group. You will need to hold two to three scrum/check-in meetings with your lab TA/reader at different times in addition to the final demo.
 
 ## Project Description
- > Dragon and the Knight is a 2D adventure role-playing game developed in C++. Player is a knight who explores different areas, fights monsters, gains experience, and becomes stronger throughout the adventure.
- > The game takes place in a fantasy world. The player can travel through different maps, defeat enemies, collect useful items, and follow a storyline. The player can level up and improve their character's abilities throughout the game. The game will also include hidden areas and secret levels that players can discover by exploring the map or completing certain challenges.
- > The main goal is to follow the storyline, become stronger, and defeat the final boss, a dragon.
- > Your project description should summarize the project you are proposing. Be sure to include:
- > * Why is it important or interesting to you?  
->        * It is a game, and I have never made a game before.  
->        * Compared to other types of projects, we find RPG games more interesting and think we would have more fun developing one. Since I have never designed or developed a game before, I am very interested in this project.  
- > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)  
->        * C++ will be used mainly.  
->        * We plan to primarily use C++ to develop our RPG game. We intend to create a text-based user interface (TUI) to display the game and allow players to interact with it.  
- > * What will be the input/output of your project?  
-         * Input would include the control commands and the output  would atleast show the result of the player's control.  
->        * **Input:** Players can choose their starting character and select different actions during turn-based combat, such as attacking, defending, or using skills. After defeating enemies, players can choose new skills and select different paths to continue their adventure.  
-         * **Output:** The game will display character stats, enemy information, combat results, and acquired skills through a text-based user interface (TUI). Based on the player's choices, the game will lead them to different rooms, such as enemy encounters, healing areas, or boss battles.  
- > * What are the features that the project provides?
->       * 1. 2D Map Exploration 
-Player will explore a 2D map using keyboard commands. The map will contain walls, paths, enemies, items, and locations that players can interact with. Different areas will become accessible as players progress through the game.
->        *2. Combat System 
-Players will encounter monsters in the map. Players can choose to attack. Different enemies will have different health, attack power, and difficulty levels.
->        *3. Character Leveling System 
-Players will earn experience points by defeating monsters and completing challenges. When players gain enough experience, they will level up and improve their character's abilities, maximum health, and attack power. 
->        *4. Storyline and Quests 
-The game will include a main storyline that guides players through their adventure. Players will interact with characters, receive quests, and complete objectives to unlock new areas and progress toward the final boss. 
->        *5. Hidden Levels and Secret Areas 
-Some parts of the map will contain hidden entrances or secret locations. Players need to explore  and find special items, or complete certain challenges to unlock these areas. Hidden levels contain stronger monsters, rare items, or additional story content. 
->        *6. Inventory and Equipment System 
-Players can collect different items like weapons, armor, and healing potions. Weapons and armor can improve character statistics, and healing potions can restore health during or after battles. 
->        *7. Boss Battles and Game Progression
-The final objective is to defeat the dragon. Successfully defeating the final boss will complete the main storyline.
- > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
+
+Dragon and the Knight is a 2D adventure role-playing game developed in C++. Player is a knight who explores different areas, fights monsters, gains experience, and becomes stronger throughout the adventure.
+The game takes place in a fantasy world. The player can travel through different maps, defeat enemies, collect useful items, and follow a storyline. The player can level up and improve their character's abilities throughout the game. The game will also include hidden areas and secret levels that players can discover by exploring the map or completing certain challenges.
+The main goal is to follow the storyline, become stronger, and defeat the final boss, a dragon.
+Your project description should summarize the project you are proposing. Be sure to include:
+
+* Why is it important or interesting to you?  
+      * It is a game, and I have never made a game before.  
+      * Compared to other types of projects, we find RPG games more interesting and think we would have more fun developing one. Since I have never designed or developed a game before, I am very interested in this project.  
+* What languages/tools/technologies do you plan to use? (This list may change over the course of the project)  
+  - languages:Cpa
+        * We plan to primarily use C++ to develop our RPG game. We intend to create a text-based user interface (TUI) to display the game and allow players to interact with it.   
+* What will be the input/output of your project?  
+      * Input would include the control commands and the output  would atleast show the result of the player's control.  
+      * Input: Players can choose their starting character and select different actions during turn-based combat, such as attacking, defending, or using skills. After defeating enemies, players can choose new skills and select different paths to continue their adventure.  
+      * Output: The game will display character stats, enemy information, combat results, and acquired skills through a text-based user interface (TUI). Based on the player's choices, the game will lead them to different rooms, such as enemy encounters, healing areas, or boss battles.  
+* What are the features that the project provides?
+   
+
+You also need to set up an empty project board using GitHub projects (board view with columns for a scrum board). Make sure you add the board under your project repository. You should also add a Product Backlog and an In testing column. Please also rename the TODO column to Sprint Backlog and the In Progress column to In Development. All columns should be in the right order.
+
+Finally, one member from your team needs to submit the Project Group Signups form (link available on Canvas) to provide a link to your team's project repository before the deadline for this porposal phase.
+
  > 
- > You also need to set up an empty project board using GitHub projects (board view with columns for a scrum board). Make sure you add the board under your project repository. You should also add a `Product Backlog` and an `In testing` column. Please also rename the `TODO` column to `Sprint Backlog` and the `In Progress` column to `In Development`. All columns should be in the right order.
-> 
-> Finally, one member from your team needs to submit the Project Group Signups form (link available on Canvas) to provide a link to your team's project repository before the deadline for this porposal phase.
+ > 
  > ## Phase II
  > In addition to completing the "User Interface Specification" and "Class Diagram" sections below, you will need to:
  > * Create an "Epic" (note) for each feature. Place these epics in the `Product Backlog` column
@@ -71,10 +62,10 @@ The final objective is to defeat the dragon. Successfully defeating the final bo
 
 ## Class Diagram
  > Include a **class diagram(s)** for your project and a **description** of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper UML notation (as discussed in the course slides).
- 
+
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
- 
+
  > BEFORE the meeting you should do the following:
  > * Update your class diagram from Phase II to include any feedback you received from your TA/grader.
  > * Considering the SOLID design principles, reflect back on your class diagram and think about how you can use the SOLID principles to improve your design. You should then update the README.md file by adding the following:
@@ -86,14 +77,14 @@ The final objective is to defeat the dragon. Successfully defeating the final bo
  > * Perform a new sprint plan like you did in Phase II.
  > * Make sure that your README file (and Project board) are up-to-date reflecting the current status of your project and the most recent class diagram. Previous versions of the README file should still be visible through your commit history.
 >  * Each team member should also submit the Peer Evaluation Form on Canvas for phase III. In this form, you need to fill in the names of all team members, the percentage of work contributed by each member for phase III, and a description of their contributions. Remember that each team member should submit the form individually.
- 
+
 > During the meeting with your reader you will discuss: 
  > * How effective your last sprint was (each member should talk about what they did)
  > * Any tasks that did not get completed last sprint, and how you took them into consideration for this sprint
  > * Any bugs you've identified and created issues for during the sprint. Do you plan on fixing them in the next sprint or are they lower priority?
  > * What tasks you are planning for this next sprint.
 
- 
+
  > ## Final deliverable
  > All group members will give a demo to the reader during lab time. ou should schedule your demo on Calendly with the same reader who took your second scrum meeting. The reader will check the demo and the project GitHub repository and ask a few questions to all the team members. 
  > Before the demo, you should do the following:
@@ -101,11 +92,11 @@ The final objective is to defeat the dragon. Successfully defeating the final bo
  > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Project board.
  > * Make sure your README file and Project board are up-to-date reflecting the current status of your project (e.g. any changes that you have made during the project such as changes to your class diagram). Previous versions should still be visible through your commit history.
 >  * Each team member should also submit the Peer Evaluation Form on Canvas for this final phase. In this form, you need to fill in the names of all team members, the percentage of work contributed by each member for the final phase, and a description of their contributions. Remember that each team member should submit the form individually.
- 
+
  ## Screenshots
  > Screenshots of the input/output after running your application
  ## Installation/Usage
  > Instructions on installing and running your application
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
- 
+
