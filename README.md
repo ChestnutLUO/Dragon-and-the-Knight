@@ -14,6 +14,9 @@ Authors: [InkWang](https://github.com/1nkWang), [Lizi Luo](https://github.com/Ch
 > * All project phases are to be submitted to this GitHub repository. You should modify this README file to reflect the different phases of the project. In addition, you should regularly hold sprint meetings with your group. You will need to hold two to three scrum/check-in meetings with your lab TA/reader at different times in addition to the final demo.
 
 ## Project Description
+ > Dragon and the Knight is a 2D adventure role-playing game developed in C++. Player is a knight who explores different areas, fights monsters, gains experience, and becomes stronger throughout the adventure.
+ > The game takes place in a fantasy world. The player can travel through different maps, defeat enemies, collect useful items, and follow a storyline. The player can level up and improve their character's abilities throughout the game. The game will also include hidden areas and secret levels that players can discover by exploring the map or completing certain challenges.
+ > The main goal is to follow the storyline, become stronger, and defeat the final boss, a dragon.
  > Your project description should summarize the project you are proposing. Be sure to include:
  > * Why is it important or interesting to you?  
 >        * It is a game, and I have never made a game before.  
@@ -25,7 +28,21 @@ Authors: [InkWang](https://github.com/1nkWang), [Lizi Luo](https://github.com/Ch
          * Input would include the control commands and the output  would atleast show the result of the player's control.  
 >        * **Input:** Players can choose their starting character and select different actions during turn-based combat, such as attacking, defending, or using skills. After defeating enemies, players can choose new skills and select different paths to continue their adventure.  
          * **Output:** The game will display character stats, enemy information, combat results, and acquired skills through a text-based user interface (TUI). Based on the player's choices, the game will lead them to different rooms, such as enemy encounters, healing areas, or boss battles.  
- > * What are the features that the project provides?  
+ > * What are the features that the project provides?
+>       * 1. 2D Map Exploration 
+Player will explore a 2D map using keyboard commands. The map will contain walls, paths, enemies, items, and locations that players can interact with. Different areas will become accessible as players progress through the game.
+>        *2. Combat System 
+Players will encounter monsters in the map. Players can choose to attack. Different enemies will have different health, attack power, and difficulty levels.
+>        *3. Character Leveling System 
+Players will earn experience points by defeating monsters and completing challenges. When players gain enough experience, they will level up and improve their character's abilities, maximum health, and attack power. 
+>        *4. Storyline and Quests 
+The game will include a main storyline that guides players through their adventure. Players will interact with characters, receive quests, and complete objectives to unlock new areas and progress toward the final boss. 
+>        *5. Hidden Levels and Secret Areas 
+Some parts of the map will contain hidden entrances or secret locations. Players need to explore  and find special items, or complete certain challenges to unlock these areas. Hidden levels contain stronger monsters, rare items, or additional story content. 
+>        *6. Inventory and Equipment System 
+Players can collect different items like weapons, armor, and healing potions. Weapons and armor can improve character statistics, and healing potions can restore health during or after battles. 
+>        *7. Boss Battles and Game Progression
+The final objective is to defeat the dragon. Successfully defeating the final boss will complete the main storyline.
  > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
  > 
  > You also need to set up an empty project board using GitHub projects (board view with columns for a scrum board). Make sure you add the board under your project repository. You should also add a `Product Backlog` and an `In testing` column. Please also rename the `TODO` column to `Sprint Backlog` and the `In Progress` column to `In Development`. All columns should be in the right order.
