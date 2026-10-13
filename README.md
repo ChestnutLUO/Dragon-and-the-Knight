@@ -31,21 +31,16 @@ Your project description should summarize the project you are proposing. Be sure
 
   * User's click and type will be the input, output will be shown in the terminal.
 * What are the features that the project provides?
-<<<<<<< HEAD
-1.Turn-Bsaed Card Combat:Players can use different cards to attack enemies, defend themselves, or restore health during battles.
-...,/
-2.Card Collections and Deck Building: Players can collect new cards by defeating enemies or purchasing them from shops. They can replace existing cards to improve their decks.
-      * 3.Randomized Levels: Players can explore different levels and choose between paths that lead to battles, shops, or special events.
-      * 4.Enemy and Boss Battles: Players will encounter different enemies and challenging bosses as they progress through the game.
-      * 5.Shop System: Players can use in-game currency to purchase cards, upgrades, and other useful items.
-=======
->>>>>>> 153f342cf2e683078cd0996c61425168664d05d1
 
-  - Turn-Bsaed Card Combat:Players can use different cards to attack enemies, defend themselves, or restore health during battles.
-  - Card Collections and Deck Building: Players can collect new cards by defeating enemies or purchasing them from shops. They can replace existing cards to improve their decks.
-  - Randomized Levels: Players can explore different levels and choose between paths that lead to battles, shops, or special events.
-  - Enemy and Boss Battles: Players will encounter different enemies and challenging bosses as they progress through the game.
-  - Shop System: Players can use in-game currency to purchase cards, upgrades, and other useful items.
+    - Turn-Bsaed Card Combat:Players can use different cards to attack enemies, defend themselves, or restore health during battles.
+
+    - Card Collections and Deck Building: Players can collect new cards by defeating enemies or purchasing them from shops. They can replace existing cards to improve their decks.
+
+    - Randomized Levels: Players can explore different levels and choose between paths that lead to battles, shops, or special events.
+
+    - Enemy and Boss Battles: Players will encounter different enemies and challenging bosses as they progress through the game.
+
+    - Shop System: Players can use in-game currency to purchase cards, upgrades, and other useful items.
 
   
 
