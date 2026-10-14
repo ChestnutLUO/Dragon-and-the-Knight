@@ -42,12 +42,6 @@ Your project description should summarize the project you are proposing. Be sure
 
     - Shop System: Players can use in-game currency to purchase cards, upgrades, and other useful items.
 
-  
-
-You also need to set up an empty project board using GitHub projects (board view with columns for a scrum board). Make sure you add the board under your project repository. You should also add a Product Backlog and an In testing column. Please also rename the TODO column to Sprint Backlog and the In Progress column to In Development. All columns should be in the right order.
-
-Finally, one member from your team needs to submit the Project Group Signups form (link available on Canvas) to provide a link to your team's project repository before the deadline for this porposal phase.
-
  > 
  > 
  > ## Phase II
