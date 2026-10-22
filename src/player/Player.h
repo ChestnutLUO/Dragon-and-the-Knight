@@ -1,3 +1,4 @@
+
 #pragma once
 
 #include <string>
@@ -15,13 +16,31 @@ class Player {
   Deck deck;
 
  public:
+  // Constructor
   Player(std::string name, int maxHp);
 
+  // Health and defense
   void takeDamage(int amount);
   void heal(int amount);
   void addBlock(int amount);
+  bool isAlive() const;
+
+  // Gold
   void gainGold(int amount);
   bool spendGold(int amount);
+
+  // Energy
   void resetEnergy();
-  bool isAlive() const;
+
+  // Getters
+  const std::string& getName() const;
+  int getHp() const;
+  int getMaxHp() const;
+  int getBlock() const;
+  int getEnergy() const;
+  int getGold() const;
+
+  // Deck access
+  Deck& getDeck();
+  const Deck& getDeck() const;
 };
