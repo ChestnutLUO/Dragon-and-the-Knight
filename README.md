@@ -32,7 +32,8 @@ Your project description should summarize the project you are proposing. Be sure
 
 
 ## User Interface Specification
-[](https://github.com/user-attachments/assets/a27e1b71-3763-4508-ab84-64aa35f3f940)
+<img width="2535" height="839" alt="shapes at 26-10-23 21 51 19" src="https://github.com/user-attachments/assets/455cd95f-7eb3-4e53-ba5b-27ec451aeea5" />
+
 
 ### Navigation Diagram
 > Draw a diagram illustrating how the user can navigate from one screen to another. Here is an [example](https://creately.com/diagram/example/ikfqudv82/user-navigation-diagram-classic?r=v). Nodes represent the different screens in your program and arrows represent the way to navigate from one screen to another. It can be useful to label each symbol that represents a screen so that you can reference the screens in the next section or the rest of the document if necessary. Give a brief description of what the diagram represents.
